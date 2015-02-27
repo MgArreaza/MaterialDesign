@@ -26,6 +26,13 @@ header #logo , header #texto{
 	vertical-align: top;
 }
 
+footer{
+	background-color: #444;
+	color: #f3f3f3;
+	padding: 3em;
+	text-align: center;
+}
+
 #texto h1, #texto p{
 	margin: 0;
 	padding: 0;
@@ -54,6 +61,7 @@ header #logo , header #texto{
 	padding: 0;
 	width: 30%;
 	margin-right:30px;
+	box-shadow: 10px 10px 5px #888888;
 }
 
 #contenido{
@@ -67,6 +75,7 @@ header #logo , header #texto{
 	padding: 20px;
 	width: 56%;
 	margin-right: 50px;
+	margin-bottom: 100px;
 }
 #avatar{
 	margin: 0;
