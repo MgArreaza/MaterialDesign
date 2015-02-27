@@ -65,14 +65,14 @@ footer{
 }
 
 #contenido{
-	margin-top: 50px;
+	margin-top: 15px;
 	border-bottom-right-radius: 2%;
 	border-bottom-left-radius: 2%;
 	vertical-align: top;
 	display: inline-block;
-	background-color: #fff;
+	background-color: #f3f3f3;
 	color: #444;
-	padding: 20px;
+	padding:10px;
 	width: 56%;
 	margin-right: 50px;
 	margin-bottom: 100px;
@@ -87,7 +87,7 @@ footer{
 	display: inline-block;
 	vertical-align: top;
 	padding: 0;
-	margin-left: 20px;
+	margin-left: 30px;
 	margin: 0;
 }
 #avatar figure img
@@ -158,9 +158,11 @@ footer{
 }
 #post
 {
+	border-radius: 2%;
+	padding: 40px;
 	margin-top: 50px;
 	margin-bottom: 40px;
-	border-bottom: 10px solid;
+	background-color: #fff;
 	border-color: #f3f3f3;
-	box-shadow: 5px 5px 5px #888888;
+	box-shadow: 7px 7px 5px #888888;
 }
