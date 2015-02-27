@@ -31,17 +31,32 @@
                <div id="texto">
                <h1>Bienvenidos</h1>
                <p><a class="btn " href="#">Inicia sesión aquí </a><a class="btn icon-circle-down" href="#"></a></p>
-               <div id="menuI">
+               <div id="menuD">
                <a class="icon-facebook2" href="#"></a>
                <a class="icon-twitter2" href="#"></a>
                </div>
                </div>
                <div id="boton">
                <figure>
-                   <a class"icon-circle-down" href="#"><img src="img/down.png" alt=""></a>
+                   <a class"btn2" href="#"><img class="btn2" src="img/down.png" alt=""></a>
                </figure>
                    
                </div>
+
+               <nav id="menuI">
+                <ul>
+                    <li><a href="#"><img src="img/home.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/database.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/onedrive.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/film.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/play3.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/cloud.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/drawer.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/tablet.png" alt=""></a></li>
+                     <li><a href="#"><img src="img/github4.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/onedrive.png" alt=""></a></li>                 
+                </ul>
+            </nav>
        </header>
 
 
@@ -109,6 +124,11 @@
               </div>
             </section>
       </div>
+
+
+            
+
+
 
         <div id="contenido">
         <div id="post">
@@ -190,6 +210,12 @@
         
        $(document).on('ready',function(){
         $('.btn').on('click', function(){
+            $('#menuD').slideToggle();
+            });
+            });
+
+           $(document).on('ready',function(){
+        $('.btn2').on('click', function(){
             $('#menuI').slideToggle();
             });
             });

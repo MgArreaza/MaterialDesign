@@ -171,7 +171,33 @@ text-decoration: none;
 	box-shadow: 7px 7px 5px #888888;
 }
 
-#menuI{
+#menuD{
 	font-size: 40px;
 	display: none;
 }
+
+
+#menuI{
+		display: none;
+		right: 40px;
+		margin-top: 30px;
+		padding: 0;
+		position: absolute;
+}
+
+#menuI ul{
+			margin: 0;
+			padding: 0;
+		}
+#menuI li{
+				margin: 0;
+				padding: 0;
+				display: block;
+				}
+#menuI img{
+					left: 0;
+					top: 0;
+					position: relative;
+					width: 30px;
+					height: 30px;
+				}
