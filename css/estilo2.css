@@ -58,19 +58,42 @@ header #logo , header #texto{
 
 #contenido{
 	margin-top: 50px;
-	border-bottom-right-radius: 8%;
-	border-bottom-left-radius: 8%;
+	border-bottom-right-radius: 2%;
+	border-bottom-left-radius: 2%;
 	vertical-align: top;
 	display: inline-block;
 	background-color: #fff;
 	color: #444;
-	padding: 0;
-	width: 60%
-}
-#contenido section{
 	padding: 20px;
+	width: 60%;
 }
-#contenido section #cont p{
+#avatar{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+#avatar figure{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0;
+	margin-left: 20px;
+	margin: 0;
+}
+#avatar figure img
+{
+	
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+#titulo{
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 0;
+}
+#cont p{
 	padding: 40px;
 }
 
@@ -119,4 +142,12 @@ header #logo , header #texto{
 #link nav ul li a{
 	text-decoration: none;
 	color:#444;
+}
+#post
+{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	border-bottom: 20px solid;
+	border-color: #f3f3f3;
+	box-shadow: 5px 5px 5px #888888;
 }
