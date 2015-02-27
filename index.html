@@ -30,7 +30,11 @@
                </div>
                <div id="texto">
                <h1>Bienvenidos</h1>
-               <p>informacion</p>
+               <p><a class="btn " href="#">Inicia sesión aquí </a><a class="btn icon-circle-down" href="#"></a></p>
+               <div id="menuI">
+               <a class="icon-facebook2" href="#"></a>
+               <a class="icon-twitter2" href="#"></a>
+               </div>
                </div>
                <div id="boton">
                <figure>
@@ -183,6 +187,13 @@
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        
+       $(document).on('ready',function(){
+        $('.btn').on('click', function(){
+            $('#menuI').slideToggle();
+            });
+            });
         </script>
+
     </body>
 </html>

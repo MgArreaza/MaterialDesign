@@ -37,6 +37,10 @@ footer{
 	margin: 0;
 	padding: 0;
 }
+#texto a{
+	color: #f3f3f3;
+text-decoration: none;
+}
 #boton figure{
 	background-color: #fff;
 	border-radius: 50%;
@@ -141,7 +145,7 @@ footer{
 	font-size: 16px;
 }
 #contenedor #users #informacion p{
-	font-size: 10px;
+	font-size: 14px;
 }
 
 #contenedor article{
@@ -165,4 +169,9 @@ footer{
 	background-color: #fff;
 	border-color: #f3f3f3;
 	box-shadow: 7px 7px 5px #888888;
+}
+
+#menuI{
+	font-size: 40px;
+	display: none;
 }
